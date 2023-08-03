@@ -1,0 +1,19 @@
+{
+  "description": "Compression Images and Fonts",
+  "private": true,
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "start": "gulp",
+    "clean": "gulp cleanFolders"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-webp": "^4.0.1"
+  }
+}
